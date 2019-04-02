@@ -37,6 +37,10 @@ public class Main {
 
     }
 
+    public static void exercise6(){
+
+    }
+
     public static void main(String[] args){
         System.out.println("Which exercise you want?");
         System.out.println("1-Rectangle");
@@ -65,7 +69,7 @@ public class Main {
                 exercise5();
                 break;
             case 6:
-                exercise5();
+                exercise6();
                 break;
             default:
                 System.out.println("Ese ejercicio no existe");
