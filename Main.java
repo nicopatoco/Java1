@@ -22,9 +22,17 @@ public class Main {
         ItemForSale firstItem= new ItemForSale(1,"Laptop",3,30000);
         firstItem.gerItem();
     }
-    public static void exercise4(){
 
+    public static void exercise4(){
+        BankAccount myAccount = new BankAccount(1,"Nicolas",15000);
+        myAccount.getDescription();
+        System.out.println("Your new balance:"+myAccount.setCredit(2500));
+        System.out.println(myAccount.purchaseDebit(1500));
+        System.out.println(myAccount.purchaseDebit(30000));
+        myAccount.getDescription();
+        System.out.println("Balance="+myAccount.getBalance());
     }
+
     public static void exercise5(){
 
     }
@@ -34,8 +42,9 @@ public class Main {
         System.out.println("1-Rectangle");
         System.out.println("2-Employee");
         System.out.println("3-Item for sale");
-        System.out.println("4-");
+        System.out.println("4-Bank account");
         System.out.println("5-");
+        System.out.println("6-");
         System.out.print("Ingrese opcion: ");
         Scanner teclado = new Scanner(System.in);
         int opcion = teclado.nextInt();
@@ -53,6 +62,9 @@ public class Main {
                 exercise4();
                 break;
             case 5:
+                exercise5();
+                break;
+            case 6:
                 exercise5();
                 break;
             default:

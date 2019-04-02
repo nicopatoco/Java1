@@ -10,7 +10,6 @@ public class ItemForSale {
         this.description=description;
         this.amount=amount;
         this.unitPrice=unitPrice;
-
     }
     //methods
     public double getTotalPrice(){
