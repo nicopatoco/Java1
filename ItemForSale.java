@@ -1,6 +1,6 @@
 public class ItemForSale {
     //attributes
-    private static int idCont=0;
+    private static int idCont=0; //Varible estatica, se crea para cada objeto.
     private int id;
     private String description;
     private int amount;
