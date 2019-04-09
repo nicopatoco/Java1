@@ -24,9 +24,9 @@ public class Main {
     }
 
     public static void exercise4(){
-        BankAccount myAccount = new BankAccount(1,"Nicolas",15000);
+        BankAccount myAccount = new BankAccount("Nicolas",15000);
         myAccount.getDescription();
-        System.out.println("Your new balance:"+myAccount.setCredit(2500));
+        System.out.println("Your new balance:"+myAccount.Credit(2500));
         System.out.println(myAccount.purchaseDebit(1500));
         System.out.println(myAccount.purchaseDebit(30000));
         myAccount.getDescription();

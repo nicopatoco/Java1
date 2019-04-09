@@ -1,16 +1,21 @@
 public class BankAccount {
     //attributes
+    private static int idCont=0;
     private int id;
     private String name;
     private double balance;
     //constructor
-    public BankAccount(int id,String name,double balance){
-        this.id=id;
+    public BankAccount(String name,double balance){
+        this.id=getIdentifier();
         this.name=name;
         this.balance=balance;
     }
     //methods
-    public double setCredit(double credit){
+    private static int getIdentifier(){
+        idCont ++;
+        return idCont;
+    }
+    public double Credit(double credit){
         this.balance+=credit;
         return this.balance;
     }
