@@ -19,7 +19,7 @@ public class Main {
 
     }
     public static void exercise3(){
-        ItemForSale firstItem= new ItemForSale(1,"Laptop",3,30000);
+        ItemForSale firstItem= new ItemForSale("laptop",5,2000);
         firstItem.gerItem();
     }
 
