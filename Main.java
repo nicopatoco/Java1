@@ -32,15 +32,12 @@ public class Main {
         myAccount.getDescription();
         System.out.println("Balance="+myAccount.getBalance());
     }
-
     public static void exercise5(){
 
     }
-
     public static void exercise6(){
 
     }
-
     public static void main(String[] args){
         System.out.println("Which exercise you want?");
         System.out.println("1-Rectangle");
